@@ -1,0 +1,5 @@
+var reviewsDiv = $("#reviews")
+var scheduleDiv = $("#schedule")
+var contactDiv = $("#contact")
+var videosDiv = $("#videos")
+var servicesDiv = $("#services")
