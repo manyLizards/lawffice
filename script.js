@@ -13,9 +13,9 @@ fetch('https://ipgeolocation.abstractapi.com/v1/?api_key=' + apiKey)
 
 function locationVerify(data) {
     if(data.region_iso_code != "TX") {
-    console.log("Jordan's Mom does not service this area") 
+        contactDiv.append("Maisie does not service your area")
     } else if (data.region_iso_code == "TX") {
-        console.log("Jordan's Mom does service this area")
+        contactDiv.append("Maisie provides service to your area!")
     }
 } 
 
