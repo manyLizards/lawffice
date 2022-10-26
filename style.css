@@ -5,9 +5,13 @@
     text-decoration-color: #EEF5DB;
 }
 
+h1 {
+    font-family: 'Merriweather', serif;
+
 nav ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+
 }
