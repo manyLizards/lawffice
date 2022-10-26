@@ -1,13 +1,14 @@
 :root {
-    background-color: #8a1216;
-    color: #333745;
-    accent-color: #FE5F55;
-    text-decoration-color: #EEF5DB;
+    --deep-red: #8a1216;
+    --grey: #333745;
+    --accent-orange: #FE5F55;
+    --beige: #EEF5DB;
 }
 
 h1 {
     font-family: 'Merriweather', serif;
 }
+
 nav ul {
     padding: 0;
     display: flex;
