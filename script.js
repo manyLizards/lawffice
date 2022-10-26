@@ -21,4 +21,3 @@ function locationVerify(data) {
         contactDiv.append("Maisie provides service to your area!")
     }
 } 
-
