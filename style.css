@@ -1,8 +1,8 @@
 :root {
-    background-color: #8a1216;
-    color: #333745;
-    accent-color: #FE5F55;
-    text-decoration-color: #EEF5DB;
+    --deep-red: #8a1216;
+    --grey: #333745;
+    --accent-orange: #FE5F55;
+    --beige: #EEF5DB;
 }
 
 h1 {
@@ -14,5 +14,13 @@ nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
 
+.videos ul {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-top: 20vh;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
