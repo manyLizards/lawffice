@@ -14,5 +14,13 @@ nav ul {
     display: flex;
     justify-content: space-between;
     list-style-type: none;
+}
 
+.videos ul {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    margin-top: 20vh;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
 }
