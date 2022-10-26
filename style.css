@@ -4,3 +4,10 @@
     accent-color: #FE5F55;
     text-decoration-color: #EEF5DB;
 }
+
+nav ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
