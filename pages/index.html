@@ -5,16 +5,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <style rel="stylesheet" href="/style.css"></style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <link rel="stylesheet" href= "../style.css">
-    <title>Lawffice</title>
+    <title>Law Office of Maisie A. Barringer</title>
 </head>
 <body>
     <header>
-        <h1 class="m-0 bg-red-700 text-white text-4xl h-20 font-serif">Law Office of Maisie A. Barringer</h1>
+        <div>
+        <h1 class="m-0 bg-red-800 text-white text-4xl h-20">
+            <a class="hover:no-underline hover:text-white" href="index.html">Law Office of Maisie A. Barringer</a></h1>
+        </div>
         <nav>
             <ul>
                 <li><a href= "mailto: noehkklwrqgrpsehfq@tmmwj.net"><a href = "./index.html">About Me</a></a></li>
@@ -23,6 +25,10 @@
             </ul>
         </nav>
     </header>
+
+    <div class="featured-image">
+        <img src="../images/gavel.png" alt="Image of Gavel">
+
     <div id="about-me">
         <h2>About Maisie</h2>
         <p>Maisie graduated from South Texas College of Law in Houston, Tx, winning 1st place in her Advocacy Team's Mock Trial Intramural Tournament in 2023. With 20 years of experience, Maisie has made the following achievements:</p>
@@ -43,9 +49,19 @@
         <h2>Contact Us</h2>
         <p>Call the office at (281)825-3137</p>
         <img src="/lawffice/images/Maisie.Profile pic.jpg" style="max-width: 30%" class="my-image" alt="">
+
     </div>
-    <div id="services">
-        <ul>
+    <div class="border-red-700 border-4 p-8" id="contact">
+        <h2 class="text-2xl">Contact Us</h2>
+        <p>Call the office at (281) 825-3137</p>
+        <img src="../images/Maisie.Profile-pic.jpg" style="max-width: 50%" class="my-image" alt="Image of Maisie A. Barringer">
+    </div>
+    
+    <div class="text-2xl" id="quote">"Maisie provided an excellent service for my family and I. I highly recommend her!" - John Doe</div>
+
+    <div class="border-red-700 border-4 p-8" id="services">
+        <h2 class="text-2xl">Services</h2>
+        <ul class="list-disc">
             <li>Divorce</li>
             <li>Adoption</li>
             <li>High Conflict Custody</li>
@@ -55,8 +71,15 @@
         </ul>
     </div>
     <footer class=“col”>
+
+        Copyright © 2022 Maisie A. Barringer 
+        <img src=“/images/MAB_letterhead.png” class=“img-fluid mx-auto” alt=“Footer”>
+    </footer>
+    <script src="../script.js"></script>
+
         <img src=“/images/MAB_letterhead.png” class=“img-fluid mx-auto” alt= “Footer logo for the Law Office of Maisie Barringer”>
     </footer>
     <script src="/script.js"></script>
+
 </body>
 </html>
