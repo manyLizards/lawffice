@@ -12,7 +12,8 @@ h1 {
 nav ul {
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
     list-style-type: none;
 }
 
