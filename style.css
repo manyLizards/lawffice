@@ -49,16 +49,22 @@ a:hover {
     padding: 50px;
     background-color: var(--beige);
     width: 500px;
+    border-radius: 10px; 
     margin: 30px;
-    border-radius: 10px;    
+    margin-left: auto;
+    margin-right: auto;
+   
 }
 
 #services {
     padding: 50px;
     background-color: var(--beige);
+    border-radius: 10px;
     width: 500px;
     margin: 30px;
-    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 ul {
@@ -80,8 +86,23 @@ footer {
 #quote {
     padding: 30px;
     color: var(--accent-orange);
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .featured-image {
     width: 500px;
+    margin: auto;
+
+}
+
+#about-me {
+    padding: 50px;
+    align-items: center;
+    background-color: var(--beige);
+    width: 500px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
 }
