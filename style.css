@@ -7,12 +7,20 @@
 
 h1 {
     font-family: 'Merriweather', serif;
+    padding: 20px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 nav ul {
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    justify-content: space-around;
     list-style-type: none;
 }
 
@@ -21,6 +29,60 @@ nav ul {
     padding-bottom: 10vh;
     margin-top: 20vh;
     display: flex;
+    flex-direction: column;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+
+a {
+    color: var(--deep-red);
+}
+
+a:hover {
+    color: var(--accent-orange);
+    text-decoration: underline;
+}
+
+#contact {
+    padding: 50px;
+    background-color: var(--beige);
+    width: 500px;
+    margin: 30px;
+    border-radius: 10px;    
+}
+
+#services {
+    padding: 50px;
+    background-color: var(--beige);
+    width: 500px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+footer {
+    background-color: var(--grey);
+    height: 100px;
+    color: white;
+    border-top: 10px var(--deep-red);
+    text-align: center;
+}
+
+.col {
+    margin-top: 10px;
+}
+
+#quote {
+    padding: 30px;
+    color: var(--accent-orange);
+}
+
+.featured-image {
+    width: 500px;
 }
