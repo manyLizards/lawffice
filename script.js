@@ -6,7 +6,6 @@ var videosDiv = document.getElementById("videos")
 var servicesDiv = document.getElementById("services")
 var image = document.querySelector(".my-image");
 var divCheck = document.getElementById("eligibilityCheck")
-
 // geo location API key
 let locationAPIKey = 'f0500e4ecfa1403e916ccc44a848a8d5';
 
