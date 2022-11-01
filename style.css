@@ -74,7 +74,7 @@ ul {
 
 footer {
     background-color: var(--grey);
-    height: 100px;
+    height: 200px;
     color: white;
     border-top: 10px var(--deep-red);
     text-align: center;
@@ -106,4 +106,10 @@ footer {
     margin-left: auto;
     margin-right: auto;
     border-radius: 10px;
+}
+
+.logo {
+    width: 300px;
+    margin: auto;
+    padding: 10px;
 }
