@@ -10,7 +10,7 @@ We thought it would be a great, real-world example to code so we went started de
 
 - What problem does it solve?
 
-Our client, Ms. Barringer, has thought about pursuing a career as a personal attorney, seperate from her current law firm. The web application we created allows her to begin her new career on the right foot -- with a solid digital foundation and plenty of functionality to assist her new practice as it continues to grow.
+Our client, Ms. Barringer, has thought about pursuing a career as a personal attorney seperate from her current law firm. The web application we created allows her to begin her new career on the right foot -- with a solid digital foundation and plenty of functionality to assist her new practice as it continues to grow.
 
 
 - What did you learn?
@@ -50,6 +50,14 @@ Seth Daulton (https://github.com/sethdaulton)
 John Mitchell Wood (https://github.com/mitchell4563)
 
 Toliver Crisp (https://github.com/tolivercrisp)
+
+# Screenshot
+
+![Screenshot Lawffice Home page](./images/lawffice_home.png)
+
+![Screenshot Lawffice Video page](./images/lawffice_videos.png)
+
+![Screenshot Lawffice Eligibility page](./images/lawffice_eligibility.png)
 
 
 ## License
