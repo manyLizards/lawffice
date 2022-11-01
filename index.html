@@ -8,10 +8,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href= "../style.css">
+    <link rel="stylesheet" href= "/style.css">
     <title>Law Office of Maisie A. Barringer</title>
 </head>
 <body>
+
+    <!-- header/nav -->
     <header>
         <div>
         <h1 class="m-0 bg-red-800 text-white text-4xl h-20">
@@ -19,22 +21,83 @@
         </div>
         <nav>
             <ul>
-                <li><a href= "mailto: noehkklwrqgrpsehfq@tmmwj.net"><a href = "./index.html">About Me</a></a></li>
-                <li><a href="./videos.html">Informational Videos</a></li>
-                <li><a href="./eligibility.html">Eligibility Check</a></li>
+                <li><a href = "/index.html">Home</a></a></li>
+                <li><a href="/pages/videos.html">Informational Videos</a></li>
+                <li><a href="/pages/eligibility.html">Eligibility Check</a></li>
+                <li><a href= "mailto: noehkklwrqgrpsehfq@tmmwj.net">Email Us!</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- gavel image -->
     <div class="featured-image">
         <img src="./images/gavel.png" alt="Image of Gavel">
-        </div>
 
+        <!-- take the test? -->
+        <button id="quizButton">Do you need a divorce?</button>
     
+        <!-- first question -->
+        <div id="1Question" class="" style="display: none;">
+            <h2>Do you and your spouse despise each other?</h2>
+            <button id="yes1">
+                YES
+            </button>
+            <br>
+            <button id="no1">
+                NO
+            </button>
+            <br>
+        </div>
+    
+        <!-- second question -->
+        <div id="2Question" class="" style="display: none;">
+            <h2>Has your spouse gone for milk and not come back?</h2>
+            <button id="yes2">
+                YES
+            </button>
+            <br>
+            <button id="no2">
+                NO
+            </button>
+            <br>
+        </div>
+    
+        <!-- third question -->
+        <div id="3Question" class="" style="display: none;">
+            <h2>Does your spouse know you exist?</h2>
+            <button id="yes3">
+                YES
+            </button>
+            <br>
+            <button id="no3">
+                NO
+            </button>
+            <br>
+        </div>
+    
+        
+        <!-- fourth question -->
+        <div id="4Question" class="" style="display: none;">
+            <h2>Do you and your spouse never agree on what TV show to watch?</h2>
+            <button id="yes4">
+                YES
+            </button>
+            <br>
+            <button id="no4">
+                NO
+            </button>
+            <br>
+        </div>
+    
+        <div id="scoreBoard" class="" style="display: none;">
+            <h2 id="score">Do you need a divorce? </h2>
+        </div>
+    </div>
 
+        <!-- about Maisie -->
     <div class="border-red-700 border-4 p-8" id="about-me">
         <h2 class="text-2xl">About Maisie</h2>
-        <p>Maisie graduated from South Texas College of Law in Houston, Tx, winning 1st place in her Advocacy Team's Mock Trial Intramural Tournament in 2023. With 20 years of experience, Maisie has made the following achievements:</p>
+        <p>Maisie graduated from South Texas College of Law in Houston, Texas, winning 1st place in her Advocacy Team's Mock Trial Intramural Tournament in 2023. With 20 years of experience, Maisie has made the following achievements:</p>
         <ul class="list-disc">
             <li>Fellow, American Academy of Matrimonial Lawyers</li>
             <li>Board Certified in Family Law by the Texas Board of Legal Specialization</li>
@@ -51,12 +114,13 @@
     
     <div class="border-red-700 border-4 p-8" id="contact">
         <h2 class="text-2xl">Contact Us</h2>
-        <p>Call the office at (281) 825-3137</p>
-        <img src="./images/Maisie.Profile-pic.jpg" style="max-width: 50%" class="my-image" alt="Image of Maisie A. Barringer">
+        <p>Call the office at (281) 825-3137 or email us <a href= "mailto: noehkklwrqgrpsehfq@tmmwj.net">here.</a></p>
+        <img src="./images/Maisie.Profile pic.jpg" style="max-width: 50%" class="my-image" alt="Image of Maisie A. Barringer">
     </div>
     
-    <div class="text-2xl" id="quote">"Maisie provided an excellent service for my family and I. I highly recommend her!" - John Doe</div>
+    <div class="text-2xl" id="quote">"Maisie provided an excellent service for my family. I highly recommend her!" <br> - John Doe</div>
 
+    <!-- services -->
     <div class="border-red-700 border-4 p-8" id="services">
         <h2 class="text-2xl">Services</h2>
         <ul class="list-disc">
@@ -72,12 +136,11 @@
     <!-- footer -->
     <footer class=“col”>
         Copyright © 2022 Maisie A. Barringer 
-        <img class="logo" src="/images/MAB_letterhead.png" class=“img-fluid mx-auto” alt=“Footer”>
-        <h2>Do you Qualify to be represented by Maisie?</h2>
+        <img class="logo" src="./images/MAB_letterhead.png" class=“img-fluid mx-auto” alt=“Footer”>
     </footer>
 
     <!-- javascript -->
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 
 </body>
 </html>
