@@ -5,22 +5,25 @@
 - What was your motivation?
 
 When we started brainstorming for this project, Jordan asked if we wanted to create a front-end application for her mother's legal practice.
-We thought it would be a great, real-world example to code so we went with it.
-
-
-- Why did you build this project?
+We thought it would be a great, real-world example to code so we went started designing and planning. Ms. Barringer wanted a clean website that emphasized client interaction and provided a list of the services she offers. That being said, there are some parts of this build that act as placeholders for later builds (like the lawyer videos and generic client reviews). In the future, our team can come back to this project and properly implement some of the features that we originally planned to include, like a Google Maps API and a document submisison form, which would allow Ms. Barringer's clients to upload important documents straight to her dropbox.
 
 
 - What problem does it solve?
 
+Our client, Ms. Barringer, has thought about pursuing a career as a personal attorney, seperate from her current law firm. The web application we created allows her to begin her new career on the right foot -- with a solid digital foundation and plenty of functionality to assist her new practice as it continues to grow.
+
 
 - What did you learn?
 
+ - Git --> and a whole lot of it! Git Reset, Git Stash, Git config pull.rebase false ... you name it!
+ - How to work with a team
+ - How to make multiple html pages function together succesfully
+ - Tailwind development
+ - Further API development
+ - Local Storage (Divorce quiz)
 
 
 ## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -29,19 +32,12 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No installation neccesary!
 
-## Usage
+Click this link: https://manylizards.github.io/lawffice/index.html
 
-Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
+## Credits (in no particular order)
 
 Jordan Baringer (https://github.com/manyLizards)
 
@@ -56,18 +52,35 @@ John Mitchell Wood (https://github.com/mitchell4563)
 Toliver Crisp (https://github.com/tolivercrisp)
 
 
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
-
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+MIT License
 
----
+Copyright (c) 2022 Jordan
 
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ## Features
 
-If your project has a lot of features, list them here.
+- Cat API
+- Divorce Quiz
+- Using Geolocation to see if the user is in Texas
+
+
+
